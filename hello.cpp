@@ -2,6 +2,6 @@
 #include "functions.h"
 using namespace std;
 void print_hello(){
-   printf("Hello World!\n");
-   // cout<<"Hello World!\n";
+   // printf("Hello World!\n");
+   cout<<"Hello World!\n";
 }
