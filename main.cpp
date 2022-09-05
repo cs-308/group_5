@@ -7,7 +7,8 @@ int main(){
     int ans = factorial(n);
     printf("By group-5\n");
     // cout<<"By group-5\n";
-    printf("Factorial of %d is %d",n,ans);
+    if(ans==-1)printf("Invalid input, re-enter by again starting program. Status : %d",ans);
+    else printf("Factorial of %d is %d",n,ans);
     // cout<<(ans == -1?"Invalid input, re-enter by again starting program":"Factorial of "+to_string(n)+" is "+to_string(ans));
     return 0;
 }
