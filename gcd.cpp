@@ -9,5 +9,11 @@ int gcd(int x,int y){
             gcd = i;
     }
     return gcd;
+}
 
+int gcd_rec(int x, int y) {
+    if (y != 0)
+        return gcd_rec(y, x % y);
+    else
+        return n1;
 }
