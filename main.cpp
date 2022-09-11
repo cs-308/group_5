@@ -15,5 +15,7 @@ int main(){
     y=98;
     int g = gcd(x,y);
     cout<<"GCD of "<<x<<" and "<<y<<" is "<<gcd(x,y);
+
+    cout<<"GCD of "<<x<<" and "<<y<<" using recursive method is "<<gcd_rec(x,y);
     return 0;
 }
